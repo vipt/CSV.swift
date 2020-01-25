@@ -60,7 +60,7 @@ public class CSVReader {
 
     public fileprivate (set) var currentRow: [String]?
 
-    internal init<T: IteratorProtocol>(
+    public init<T: IteratorProtocol>(
         iterator: T,
         configuration: Configuration
         ) throws where T.Element == UnicodeScalar {
