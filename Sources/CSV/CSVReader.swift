@@ -31,7 +31,7 @@ public class CSVReader {
         public var whitespaces: CharacterSet
 
         /// No overview available.
-        internal init(
+        public init(
             hasHeaderRow: Bool,
             trimFields: Bool,
             delimiter: UnicodeScalar,
